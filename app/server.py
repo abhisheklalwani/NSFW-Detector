@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1z_pEjjfg1jfgTKIXcv4H8Iq2TZqQ6JJf?alt=media&key=AIzaSyB9RprSJ9pwKPt2vawj8w-f1mN4DnAZk4s'
-export_file_name = 'trained_model.pkl'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1n_cf3mPcJGx16jYjeFUni2xfAM78mqQ6?alt=media&key=AIzaSyB9RprSJ9pwKPt2vawj8w-f1mN4DnAZk4s'
+export_file_name = 'export.pkl'
 
-classes = ['smog','clear']
+classes = ['NSFW','SFW']
 path = Path(__file__).parent
 
 app = Starlette()
