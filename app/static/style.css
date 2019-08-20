@@ -1,12 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(52, 152, 219, 0.7), rgba(155, 89, 182, 0.7)), url("./bg.png");
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
-    font-family: "Noto Sans", sans-serif, Arial;
-    color: white;
+    background-color: #fff;
 }
 
 .no-display {
@@ -20,24 +13,15 @@ body {
     font-size: 14px;
 }
 
-@-webkit-keyframes hue {
-    from {
-        -webkit-filter: hue-rotate(0deg);
-    }
-    to {
-        -webkit-filter: hue-rotate(-360deg);
-    }
-}
-
 .title {
     font-size: 30px;
     margin-top: 1em;
     margin-bottom: 1em;
-    font-weight: bold;
+    color: #262626;
 }
 
 .content {
-    margin-top: 5em;
+    margin-top: 10em;
 }
 
 .analyze {
