@@ -30,7 +30,10 @@ The model used is a custom model with a [ResNet101 backbone](https://arxiv.org/a
 
 **The model is deployed using [Render](https://render.com/) and is available [here](Isitnsfw.onrender.com) for testing purposes.** 
 
-###### Image 2: Model working 
+
+<img src="https://raw.githubusercontent.com/lalwaniabhi/NSFW_Deployment/master/assets/code.gif" alt="Project Video GIF">
+
+###### Image 2: Project Video (This includes one not safe for work image for model working showcase. Inconvenience caused is regretted)
 
 ### Future Plans 
 
