@@ -35,7 +35,7 @@ The model used is a custom model with a [ResNet101 backbone](https://arxiv.org/a
 
 ###### Image 2: Project Video (This includes one not safe for work image for model working showcase. Inconvenience caused is regretted)
 
-### Future Plans 
+## Future Plans 
 
 * We plan to build a similar text-based obscenity detector model. This model would allow classifying sentences as 'safe for work' (SFW) or not. It'll be used in conjunction with our present model and would remind users before posting unsafe content, be it images or text. 
 
@@ -43,11 +43,15 @@ The model used is a custom model with a [ResNet101 backbone](https://arxiv.org/a
 
 The overall aim is to cover all possible content types posted on social media platforms. 
 
-### Acknowledgements 
+### User Privacy
+
+The images predicted to be NSFW by our model can be very personal sensitive images belonging to the user. To protect such sensitive information, we intend to process the obscenity detection model on images at a user's device and not at the server, enabling us to preserve user privacy. 
+
+## Acknowledgements 
 
 We acknowledge Facebook and Udacity for giving us this opportunity to participate in the Secure and Private AI course challenge. 
 
-### Contirbutors
+## Contirbutors
 
 * Abhishek Lalwani (@Abhishek Lalwani) 
 * Abhishek Tandon (@Abhishek Tandon) 
