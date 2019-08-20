@@ -45,7 +45,7 @@ The overall aim is to cover all possible content types posted on social media pl
 
 ### User Privacy
 
-The images predicted to be NSFW by our model can be very personal sensitive images belonging to the user. To protect such sensitive information, we intend to process the obscenity detection model on images at a user's device and not at the server, enabling us to preserve user privacy. 
+The images predicted to be NSFW by our model can be very personal sensitive images belonging to the user. To protect such sensitive information, we intend to process the obscenity detection model on images at a user's device and not at the server. Executing the model at a user's device would enable us to preserve user privacy. 
 
 ## Acknowledgements 
 
