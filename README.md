@@ -28,7 +28,7 @@ To train our model we have used the NSFW dataset available at Kaggle provided by
 
 The model used is a custom model with a [ResNet101 backbone](https://arxiv.org/abs/1512.03385). We have trained our model using [FastAI](https://www.fast.ai/) library.  The model training code is available [here](https://www.kaggle.com/lalwaniabhishek/nsfw-project?scriptVersionId=19160785).
 
-**The model is deployed using [Render](https://render.com/) and is available [here](Isitnsfw.onrender.com) for testing purposes.** 
+**The model is deployed using [Render](https://render.com/) and is available [here](isitnsfw.onrender.com) for testing purposes.** 
 
 
 <img src="https://raw.githubusercontent.com/lalwaniabhi/NSFW_Deployment/master/assets/code.gif" alt="Project Video GIF">
