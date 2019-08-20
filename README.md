@@ -1,15 +1,50 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+# Obscenity Detection in Images 
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+The objective of this project is to build an obscenity detector for images. Using this detector, one could classify images between two categories,  **'not safe for work' (NSFW) and 'safe for work' (SFW)**, i.e. whether images have obscene content or not respectively.
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
+## Project Application
 
-You can test your changes locally by installing Docker and using the following command:
+While there's a general notion of what's obscene and what is not, this notion varies from one person to another. A user may feel that an image doesn't have any obscene content and would feel safe to post it online. Posting an indecent image online can have severe consequences on the community. 
+In such cases, blocking the user comes across as the general solution. 
+A genuine user who had felt it was safe to post, can't do anything much after getting blocked. This block, in turn, forces the user to shift to other social platforms.
 
-```
-docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3
-```
+An obscenity detection model can effectively solve such problems and come handy in such situations. 
 
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
+This model can be used on social media platforms such as Facebook to prevent users from uploading an indecent image by reminding the user about this before the image gets uploaded on the platform.
 
-Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-platform-render/33953) for questions and support.
+<img src="https://raw.githubusercontent.com/lalwaniabhi/NSFW_Deployment/master/assets/appwork.png?token=AI2XX7HYSKTUVRNU4ILRK225LQK2M" alt="Application Use Case">
+
+###### Image 1: Use case 
+
+Using this application, we aim to keep the traffic of such obscene content minimal, boosting the overall user experience.
+
+## Project Details 
+
+### Dataset 
+
+To train our model we have used the NSFW dataset available at Kaggle provided by Vareza Noorliko. Dataset is available [here](https://www.kaggle.com/drakedtrex/my-nsfw-dataset).
+
+### Detection Model 
+
+The model used is a custom model with a [ResNet101 backbone](https://arxiv.org/abs/1512.03385). We have trained our model using [FastAI](https://www.fast.ai/) library.  The model training code is available [here](https://www.kaggle.com/lalwaniabhishek/nsfw-project?scriptVersionId=19160785).
+
+**The model is deployed using [Render](https://render.com/) and is available [here](Isitnsfw.onrender.com) for testing purposes.** 
+
+###### Image 2: Model working 
+
+### Future Plans 
+
+* We plan to build a similar text-based obscenity detector model. This model would allow classifying sentences as 'safe for work' (SFW) or not. It'll be used in conjunction with our present model and would remind users before posting unsafe content, be it images or text. 
+
+* We would extend our current model to allow it to classify videos as SFW. 
+
+The overall aim is to cover all possible content types posted on social media platforms. 
+
+### Acknowledgements 
+
+We acknowledge Facebook and Udacity for giving us this opportunity to participate in the Secure and Private AI course challenge. 
+
+### Contirbutors
+
+* Abhishek Lalwani (@Abhishek Lalwani) 
+* Abhishek Tandon (@Abhishek Tandon) 
