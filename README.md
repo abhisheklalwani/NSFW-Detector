@@ -22,7 +22,7 @@ Using this application, we aim to keep the traffic of such obscene content minim
 
 ### Dataset 
 
-To train our model we have used the NSFW dataset available at Kaggle provided by Vareza Noorliko. Dataset is available [here](https://www.kaggle.com/drakedtrex/my-nsfw-dataset).
+To train our model we have used the NSFW dataset available at Kaggle provided by Vareza Noorliko. Dataset is available [here](https://www.kaggle.com/drakedtrex/my-nsfw-dataset). Please note that the dataset contains obscene images which might not be suitable for every environment. 
 
 ### Detection Model 
 
