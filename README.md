@@ -28,13 +28,6 @@ To train our model we have used the NSFW dataset available at Kaggle provided by
 
 The model used is a custom model with a [ResNet101 backbone](https://arxiv.org/abs/1512.03385). We have trained our model using [FastAI](https://www.fast.ai/) library.  The model training code is available [here](https://www.kaggle.com/lalwaniabhishek/nsfw-project?scriptVersionId=19160785).
 
-**The model is deployed using [Render](https://render.com/) and is available [here](https://isitnsfw.onrender.com) for testing purposes.** 
-
-
-<img src="https://raw.githubusercontent.com/lalwaniabhi/NSFW_Deployment/master/assets/code.gif" alt="Project Video GIF">
-
-###### Image 2: Project Video (This includes one not safe for work image (NSFW) to showcase model working. Inconvenience caused is regretted)
-
 ## Future Plans 
 
 * We plan to build a similar text-based obscenity detector model. This model would allow classifying sentences as 'safe for work' (SFW) or not. It'll be used in conjunction with our present model and would remind users before posting unsafe content, be it images or text. 
