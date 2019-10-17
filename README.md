@@ -46,5 +46,5 @@ We acknowledge Facebook and Udacity for giving us this opportunity to participat
 
 ## Contirbutors
 
-* Abhishek Lalwani (@Abhishek Lalwani) 
-* Abhishek Tandon (@Abhishek Tandon) 
+* [Abhishek Lalwani](https://github.com/lalwaniabhi) (@Abhishek Lalwani) 
+* [Abhishek Tandon](https://github.com/Tandon-A) (@Abhishek Tandon) 
